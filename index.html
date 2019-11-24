@@ -49,21 +49,47 @@
                         xmlns:krita="http://krita.org/namespaces/svg/krita"
                         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" width="288pt" height="288pt"
                         viewBox="0 0 288 288">
+                        <!-- path glow - keyboard + monitor glow -->
+                        <filter id="glow">
+                            <feGaussianBlur stdDeviation="8 5" result="Blur" />
+                            <feMerge>
+                                <feMergeNode in="Blur" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                        <!-- glow 2 - JAVA and keys glow -->
+                        <filter id="glow2" x="-20%" y="-20%" width="150%" height="250%">
+                            <feGaussianBlur stdDeviation="8 8" result="glow2" />
+                            <feMerge>
+                                <feMergeNode in="glow2" />
+                                <feMergeNode in="glow2" />
+                                <feMergeNode in="glow2" />
+                            </feMerge>
+                        </filter>
                         <defs />
-                        <g id="group0" transform="translate(49.384337598, 37.44)" fill="none">
-                            <rect id="shape0" transform="translate(13.975662402, 0)" fill="none" stroke="#000000"
-                                stroke-width="1.44" stroke-linecap="square" stroke-linejoin="bevel" width="180"
-                                height="108" />
-                            <text id="shape1" transform="translate(73.750674112, 64.013021077)" fill="#000000"
+                        <g id="java-graphic" transform="translate(49.384337598, 37.44)" fill="none">
+                            <rect id="monitor" transform="translate(13.975662402, 0)" stroke="magenta"
+                                stroke-width="3.5" stroke-linecap="square" stroke-linejoin="bevel" width="180"
+                                height="108" filter="url(#glow)" />
+
+                            <!-- TEXT GLOW -->
+                            <text id="java" transform="translate(69.750674112, 64.013021077)" fill="magenta"
+                                font-size-adjust="0.217391" filter="url(#glow2)">
+                                <tspan x="0">JAVA</tspan>
+                            </text>
+                            <text id="java" transform="translate(69.750674112, 64.013021077)" fill="magenta"
                                 font-size="26" font-size-adjust="0.217391">
                                 <tspan x="0">JAVA</tspan>
                             </text>
-                            <path id="shape2" transform="translate(0, 107.40056206)" fill="none" stroke="#000000"
-                                stroke-width="1.44" stroke-linecap="square" stroke-linejoin="bevel"
+
+                            <path id="keyboard" transform="translate(0, 107.40056206)" fill="none" stroke="magenta"
+                                stroke-width="3.5" stroke-linecap="square" stroke-linejoin="bevel" filter="url(#glow)"
                                 d="M14.413 0C98.263 0 158.156 0 194.092 0C198.682 21.4154 203.271 42.8307 207.861 64.2461C166.677 64.1033 97.3903 63.987 0 63.8974Z" />
-                            <path id="shape3" transform="translate(31.565246712, 136.6779738)" fill="none"
-                                stroke="#000000" stroke-width="0.72" stroke-linecap="square" stroke-linejoin="miter"
-                                stroke-miterlimit="2" d="M0 0.509117L143.571 0" />
+
+                            
+                            <path id="keys" transform="translate(31.565246712, 136.6779738)" fill="magenta"
+                                stroke="magenta" stroke-width="5.85" stroke-linecap="square" stroke-linejoin="miter"
+                                stroke-miterlimit="2" d="M0 0.509117L143.571 0" filter="url(#glow2)" />
                         </g>
                     </svg>
                 </div>
@@ -71,7 +97,7 @@
 
             </div>
             <div class="info">
-                <h1 class="service-header">In Progress</h1>
+                <h1 class="service-header">Complete</h1>
                 <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non metus nisi. Fusce
                     eget auctor ligula. Aenean tempus pretium tellus, ut semper orci maximus in. Sed tempus lectus vel
                     sem pretium dapibus. Curabitur tincidunt vulputate facilisis</p>
@@ -82,7 +108,7 @@
         <div class="h-box">
             <div class="graphic"></div>
             <div class="info">
-                <h1 class="service-header">Lorem ipsum</h1>
+                <h1 class="service-header">In Progress</h1>
                 <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non metus nisi. Fusce
                     eget auctor ligula. Aenean tempus pretium tellus, ut semper orci maximus in. Sed tempus lectus vel
                     sem pretium dapibus. Curabitur tincidunt vulputate facilisis</p>
