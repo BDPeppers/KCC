@@ -122,18 +122,18 @@ div.h-box div.info p {
   font-size: 1.5rem;
 }
 
-div.java-box {
+div.java-box, div.ttt-box {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
 }
-div.java-box svg {
+div.java-box svg, div.ttt-box svg {
   height: 100%;
   width: 100%;
 }
-div.java-box svg text {
+div.java-box svg text, div.ttt-box svg text {
   font-size: 6.5rem;
   font-family: monospace;
 }
