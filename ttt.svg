@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created using Krita: http://krita.org -->
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:krita="http://krita.org/namespaces/svg/krita"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    width="288pt"
+    height="288pt"
+    viewBox="0 0 851.04 851.04">
+
+<g id="layer1" transform="matrix(2.83465058 0 0 2.83465058 1.7692589701 21.458893192)" fill="none">
+  <!-- Tic Tac Toe Box -->
+  <g id="g829" transform="matrix(0.92105265 0 0 0.92982457 10.583333 10.258772)" fill="none">
+   <path id="path817" transform="translate(100.54167, -4.6249977)" fill="none" stroke=":#00ff00" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" d="M0 0L0 301.625"/>
+   <path id="path819" transform="translate(201.08333, -4.6249977)" fill="none" stroke=":#00ff00" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" d="M0 0L0 301.625"/>
+   <path id="path821" transform="translate(0, 95.916669)" fill="none" stroke=":#00ff00" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" d="M0 0L301.625 0"/>
+   <path id="path823" transform="translate(0, 196.45833)" fill="none" stroke=":#00ff00" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" d="M0 0L301.625 0"/>
+  </g>
+  <!-- Ellipses = Circles -->
+  <ellipse id="path831" transform="translate(21.778732, 17.955502)" rx="33.904034" ry="33.102264" cx="33.904034" cy="33.102264" opacity="0.98999999" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4"/>
+  <ellipse id="path831-3" transform="translate(116.708026, 112.483916)" rx="33.904034" ry="33.102264" cx="33.904034" cy="33.102264" opacity="0.98999999" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4"/>
+  <ellipse id="path831-2" transform="translate(207.949196, 208.535686)" rx="33.904034" ry="33.102264" cx="33.904034" cy="33.102264" opacity="0.98999999" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4"/>
+  <ellipse id="path831-2-9" transform="translate(21.217502, 207.252856)" rx="33.904034" ry="33.102264" cx="33.904034" cy="33.102264" opacity="0.98999999" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4"/>
+  
+  <!-- Xs -->
+  <g id="g901" transform="translate(5.2916667, 5.6221517006e-06)" fill="none">
+   <g id="g880" fill="none">
+    <g id="g875" fill="none">
+     <path id="path869" transform="translate(15.875, 111.79167)" fill="none" stroke="magenta" stroke-width="2.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" d="M0 0L68.7917 68.7917L68.7917 68.7917"/>
+     <path id="path871" transform="translate(15.875, 111.79167)" fill="none" stroke="magenta" stroke-width="2.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" d="M0 68.7917L68.7917 0"/>
+    </g>
+   </g>
+  </g>
+  <g id="g901-8" transform="translate(190.5, -95.250001)" fill="none">
+   <g id="g880-4" fill="none">
+    <g id="g875-6" fill="none">
+     <path id="path869-4" transform="translate(15.875, 111.79167)" fill="none" stroke="magenta" stroke-width="2.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" d="M0 0L68.7917 68.7917L68.7917 68.7917"/>
+     <path id="path871-9" transform="translate(15.875, 111.79167)" fill="none" stroke="magenta" stroke-width="2.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" d="M0 68.7917L68.7917 0"/>
+    </g>
+   </g>
+  </g>
+  <g id="g901-0" transform="translate(201.08333, -1.0445149989e-06)" fill="none">
+   <g id="g880-3" transform="translate(-10.58333, 0)" fill="none">
+    <g id="g875-8" fill="none">
+     <path id="path869-7" transform="translate(15.875, 111.79167)" fill="none" stroke="magenta" stroke-width="2.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" d="M0 0L68.7917 68.7917L68.7917 68.7917"/>
+     <path id="path871-6" transform="translate(15.875, 111.79167)" fill="none" stroke="magenta" stroke-width="2.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" d="M0 68.7917L68.7917 0"/>
+    </g>
+   </g>
+
+  <!-- Winner Line -->
+  </g>
+  <path id="path948" transform="translate(15.874999, 11.250003)" fill=":#00ff00" stroke=":#00ff00" stroke-width="5.1365304" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="4" d="M0 0L259.292 264.583"/>
+ </g>
+
+</svg>
