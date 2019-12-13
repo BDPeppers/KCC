@@ -17,7 +17,7 @@ $blue: #000080
     font-size: 62.5% //1rem = 10px
     padding: 0
     margin: 0
-    overflow: hidden
+    overflow-x: hidden
 body
     background-color: $green
 a
@@ -32,17 +32,21 @@ header,nav.site-header
     min-height: 20vh
     height: fit-content
     @include center-flex(row)
-    flex-basis: 100%
     flex-wrap: wrap
     div, ul
         max-width: 1024px
         min-height: 10vh
         list-style: none
         display: flex
-    div
+    div.header-box
         align-items: center
-        h1
+        flex-basis: 100%
+        display: flex
+        justify-content: center
+        align-content: center
+        h1.header-text
             color: $magenta
+            text-align: center
             font-size: 4rem
             padding: 0 2rem
             
@@ -76,6 +80,7 @@ section.banner-wrap
     width: 100%
     max-width: 1024px
     @include center-flex(row)
+    flex-wrap: wrap-reverse
     min-height: 80vh
     justify-content: space-around
     margin: auto
@@ -113,11 +118,12 @@ div.java-box, div.ttt-box
         text
             font-size: 6.5rem
             font-family: monospace
-        
-        
 
-        
-    
+//Mobile Styles
+@media screen and (max-width: 620px)      
+    div.h-box
+        width: 80%
+        margin: 5rem 0
 
 
  
