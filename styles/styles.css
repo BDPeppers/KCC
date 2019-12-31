@@ -74,8 +74,10 @@ header nav.site-header ul.nav-links li.nav-link:hover a, nav.site-header nav.sit
   color: #000080ff;
 }
 
-div.graphic, div.info {
-  border: black 0.1rem solid;
+div.h-box {
+  border: #000080ff 0.1rem solid;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
 }
 
 section.banner-wrap {
