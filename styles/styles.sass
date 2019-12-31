@@ -1,7 +1,7 @@
 //Color variables
-$green: rgb(0,255,0)
+$green:#00FE98
 $magenta:  #ef10ce
-$blue: #000080
+$blue:#000080ff
 
 //Mixins
 @mixin center-flex($way)
@@ -18,8 +18,10 @@ $blue: #000080
     padding: 0
     margin: 0
     overflow-x: hidden
-body
+    font-family: 'Bubblegum Sans', cursive
+body.program-page
     background-color: $green
+  
 a
     text-decoration: none
     font-size: 1.5rem
@@ -108,7 +110,7 @@ div.h-box
         p
             font-size: 1.5rem
 
-Graphic One 
+// Graphics
 div.java-box, div.ttt-box
     @include center-flex(row)
     flex-wrap: wrap
@@ -118,6 +120,13 @@ div.java-box, div.ttt-box
         text
             font-size: 6.5rem
             font-family: monospace
+
+//Image
+div.graphic
+    img.coding-img
+        width: 80%
+        height: 50%
+
 
 //Mobile Styles
 @media screen and (max-width: 620px)      
