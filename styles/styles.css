@@ -75,9 +75,12 @@ header nav.site-header ul.nav-links li.nav-link:hover a, nav.site-header nav.sit
 }
 
 div.h-box {
-  border: #000080ff 0.1rem solid;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
+}
+
+div.bx {
+  border: #000080ff 0.1rem solid;
 }
 
 section.banner-wrap {
@@ -100,7 +103,6 @@ div.h-box {
   flex-direction: column;
   height: 75vh;
   width: 30%;
-  border: #000080ff 0.1rem solid;
 }
 div.h-box div.graphic {
   flex-basis: 70%;
@@ -118,16 +120,28 @@ div.h-box div.info {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 div.h-box div.info h1, div.h-box div.info p {
   text-align: center;
   padding: 1rem;
+  overflow: hidden;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 div.h-box div.info h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  flex-basis: 35%;
 }
 div.h-box div.info p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  flex-basis: 65%;
+}
+div.h-box div.info p.own-box {
+  border: #000080ff 0.1rem solid;
 }
 
 div.java-box, div.ttt-box {
@@ -151,10 +165,16 @@ div.graphic img.coding-img {
   height: 50%;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 650px) {
   div.h-box {
     width: 80%;
     margin: 5rem 0;
+  }
+  div.h-box div.info h1 {
+    font-size: 2rem;
+  }
+  div.h-box div.info p {
+    font-size: 1.5rem;
   }
 }
 

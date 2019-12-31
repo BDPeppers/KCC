@@ -75,11 +75,11 @@ header,nav.site-header
            
 
 // page layout
-div.h-box
-    border: $blue .1rem solid
+div.h-box   
     border-top-left-radius: 2rem
     border-top-right-radius: 2rem
-
+div.bx
+    border: $blue .1rem solid
 section.banner-wrap
     width: 100%
     max-width: 1024px
@@ -93,24 +93,37 @@ div.h-box
     @include center-flex(column)
     height: 75vh
     width: 30%
-    border: $blue .1rem solid
     div.graphic
         flex-basis: 70%
         width: 100%
         background-color: $blue
         @include center-flex(column)
+    
         
     div.info
         flex-basis: 30%
         width: 100%
         @include center-flex(column)
+        justify-content: space-evenly
+        align-items: center
+      
         h1, p
             text-align: center
             padding: 1rem
+            overflow: hidden
+            display: flex
+            text-align: center
+            justify-content: center
+            align-items: center
         h1
-            font-size: 2rem
-        p
             font-size: 1.5rem
+            flex-basis: 35%
+        p
+            font-size: 1.2rem
+            flex-basis: 65%
+        p.own-box
+            border: $blue .1rem solid
+            
 
 // Graphics
 div.java-box, div.ttt-box
@@ -131,10 +144,15 @@ div.graphic
 
 
 //Mobile Styles
-@media screen and (max-width: 620px)      
+@media screen and (max-width: 650px)      
     div.h-box
         width: 80%
         margin: 5rem 0
+        div.info
+            h1
+                font-size: 2rem
+            p
+                font-size: 1.5rem
 
 
  
