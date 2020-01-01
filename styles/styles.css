@@ -180,13 +180,13 @@ div.graphic img.coding-img {
 @media screen and (max-width: 500px) {
   div.h-box div.info {
     flex-basis: unset;
-    height: 55vh;
+    height: 40vh;
   }
   div.h-box div.info h1 {
     font-size: 1.7rem;
   }
   div.h-box div.info p {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 }
 
