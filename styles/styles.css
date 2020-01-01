@@ -177,5 +177,13 @@ div.graphic img.coding-img {
     font-size: 1.5rem;
   }
 }
+@media screen and (max-width: 500px) {
+  div.h-box div.info h1 {
+    font-size: 1.7rem;
+  }
+  div.h-box div.info p {
+    font-size: 1.3rem;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
