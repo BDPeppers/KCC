@@ -178,6 +178,10 @@ div.graphic img.coding-img {
   }
 }
 @media screen and (max-width: 500px) {
+  div.h-box div.info {
+    flex-basis: unset;
+    height: 55vh;
+  }
   div.h-box div.info h1 {
     font-size: 1.7rem;
   }
