@@ -183,10 +183,22 @@ div.graphic img.coding-img {
     height: 40vh;
   }
   div.h-box div.info h1 {
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
   div.h-box div.info p {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-height: 628px) {
+  div.h-box div.info {
+    flex-basis: unset;
+    height: 40vh;
+  }
+  div.h-box div.info h1 {
+    font-size: 2rem;
+  }
+  div.h-box div.info p {
+    font-size: 1.3rem;
   }
 }
 
