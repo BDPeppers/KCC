@@ -80,6 +80,8 @@ div.h-box
     border-top-right-radius: 2rem
 div.bx
     border: $blue .1rem solid
+    border-bottom-right-radius: 2rem
+    border-bottom-left-radius: 2rem
 section.banner-wrap
     width: 100%
     max-width: 1024px
@@ -109,20 +111,22 @@ div.h-box
       
         h1, p
             text-align: center
-            padding: 1rem
             overflow: hidden
             display: flex
             text-align: center
             justify-content: center
             align-items: center
         h1
-            font-size: 1.5rem
-            flex-basis: 35%
+            font-size: 2rem
+            padding: 1rem 0
+            flex-basis: 25%
         p
-            font-size: 1.2rem
-            flex-basis: 65%
-        p.own-box
-            border: $blue .1rem solid
+            font-size: 1.5rem
+            flex-basis: 75%
+            padding: 0 1rem
+            @media screen and (max-width: 1024px)
+                font-size: 1.3rem  
+        
             
 
 // Graphics
@@ -144,7 +148,7 @@ div.graphic
 
 
 //Mobile Styles
-@media screen and (max-width: 650px)      
+@media screen and (max-width: 750px)      
     div.h-box
         width: 80%
         margin: 5rem 0
@@ -162,7 +166,7 @@ div.graphic
                 font-size: 2rem
             p
                 font-size: 1.5rem
-@media screen and ( max-height:628px )
+@media screen and ( max-height: 628px )
     div.h-box
         div.info
             flex-basis: unset
